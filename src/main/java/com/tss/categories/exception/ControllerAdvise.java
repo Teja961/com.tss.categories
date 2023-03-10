@@ -43,11 +43,11 @@ public class ControllerAdvise {
                 return categoriesResponse;
         }
 
-        @ExceptionHandler(AcountsRequestInvalidException.class)
+        /*@ExceptionHandler(AcountsRequestInvalidException.class)
         @ResponseBody
         public AccountsControllerResTo handleRequestInvalidException(AcountsRequestInvalidException acountsRequestInvalidException){
 
-               return AccountsControllerResTo accountsControllerResTo1 = getCategoriesResponse(acountsRequestInvalidException.getErrorCode(), acountsRequestInvalidException.getErrorMessage());
-        }
+               //return AccountsControllerResTo accountsControllerResTo1 = getCategoriesResponse(acountsRequestInvalidException.getErrorCode(), acountsRequestInvalidException.getErrorMessage());
+        }*/
 
 }
